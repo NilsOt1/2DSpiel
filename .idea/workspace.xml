@@ -58,7 +58,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerCharacterTest.move_whenInputW_thenYPlus1">
+  <component name="RunManager" selected="JUnit.PlayerCharacterTest.move_whenInputD_thenXPlus1">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="ZweiDSpielbrett" />
@@ -88,7 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerCharacterTest.move_whenInputW_thenYPlus1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayerCharacterTest.move_whenInputD_thenXPlus1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ZweiDSpielbrett" />
       <extension name="coverage">
         <pattern>
@@ -98,7 +98,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.PlayerCharacterTest" />
-      <option name="METHOD_NAME" value="move_whenInputW_thenYPlus1" />
+      <option name="METHOD_NAME" value="move_whenInputD_thenXPlus1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,7 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PlayerCharacterTest.move_whenInputW_thenYPlus1" />
+        <item itemvalue="JUnit.PlayerCharacterTest.move_whenInputD_thenXPlus1" />
         <item itemvalue="JUnit.PlayerCharacterTest.getX_whenStarted_thenReturnZero" />
         <item itemvalue="Application.Main" />
       </list>

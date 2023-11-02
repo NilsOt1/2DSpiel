@@ -18,6 +18,8 @@ public class PlayerCharacter {
             return 1;
         } else if (input == "s") {
             return -1;
+        } else if (input == "d") {
+            return 1;
         }
         return 0;
     }

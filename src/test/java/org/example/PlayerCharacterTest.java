@@ -49,4 +49,15 @@ class PlayerCharacterTest {
         // THEN
         assertEquals(expected, actual);
     }
+
+    @Test
+    void move_whenInputD_thenXPlus1(){
+        // GIVEN
+        int expected = 1;
+        String input = "d";
+        // WHEN
+        int actual = PlayerCharacter.move(input);
+        // THEN
+        assertEquals(expected, actual);
+    }
 }
