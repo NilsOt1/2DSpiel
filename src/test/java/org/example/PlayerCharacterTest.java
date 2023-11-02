@@ -24,6 +24,18 @@ class PlayerCharacterTest {
         int actual = PlayerCharacter.getY();
         // THEN
         assertEquals(expected, actual);
+    }
+
+
+    @Test
+    void move_whenInputW_thenYPlus1(){
+        // GIVEN
+        int expected = 1;
+        String inputUp = "w";
+        // WHEN
+        int actual = PlayerCharacter.move(inputUp);
+        // THEN
+        assertEquals(expected, actual);
 
     }
 
