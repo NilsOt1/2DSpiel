@@ -1,8 +1,11 @@
 package org.example;
 
+import java.util.Objects;
+
 public class PlayerCharacter {
 
-
+    static int y = 0;
+    static int x = 0;
 
     public static int getX() {
         return 0;
@@ -14,13 +17,13 @@ public class PlayerCharacter {
 
     public static int move(String input) {
         if (input == "w") {
-            return 1;
+            return y++;
         } else if (input == "s") {
-            return -1;
+            return y--;
         } else if (input == "d") {
-            return 1;
+            return x++;
         } else if (input == "a") {
-            return -1;
+            return x--;
         }
         return 0;
     }

@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class PlayerCharacterTest {
 
     @Test
-    void getX_whenStarted_thenReturnZero(){
+    void getX_whenStarted_thenReturnZero() {
         // GIVEN
         int expected = 0;
         // WHEN
@@ -16,8 +16,9 @@ class PlayerCharacterTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
-    void getY_whenStarted_thenReturnZero(){
+    void getY_whenStarted_thenReturnZero() {
         // GIVEN
         int expected = 0;
         // WHEN
@@ -28,7 +29,7 @@ class PlayerCharacterTest {
 
 
     @Test
-    void move_whenInputW_thenYPlus1(){
+    void move_whenInputW_thenYPlus1() {
         // GIVEN
         int expected = 1;
         String input = "w";
@@ -40,7 +41,7 @@ class PlayerCharacterTest {
     }
 
     @Test
-    void move_whenInputS_thenYMinus1(){
+    void move_whenInputS_thenYMinus1() {
         // GIVEN
         int expected = -1;
         String input = "s";
@@ -51,7 +52,7 @@ class PlayerCharacterTest {
     }
 
     @Test
-    void move_whenInputA_thenXMinus1(){
+    void move_whenInputA_thenXMinus1() {
         // GIVEN
         int expected = -1;
         String input = "a";
