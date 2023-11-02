@@ -31,12 +31,22 @@ class PlayerCharacterTest {
     void move_whenInputW_thenYPlus1(){
         // GIVEN
         int expected = 1;
-        String inputUp = "w";
+        String input = "w";
         // WHEN
-        int actual = PlayerCharacter.move(inputUp);
+        int actual = PlayerCharacter.move(input);
         // THEN
         assertEquals(expected, actual);
 
     }
 
+    @Test
+    void move_whenInputS_thenYMinus1(){
+        // GIVEN
+        int expected = -1;
+        String input = "s";
+        // WHEN
+        int actual = PlayerCharacter.move(input);
+        // THEN
+        assertEquals(expected, actual);
+    }
 }

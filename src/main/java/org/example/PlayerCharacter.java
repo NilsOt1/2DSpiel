@@ -12,10 +12,12 @@ public class PlayerCharacter {
         return 0;
     }
 
-    public static int move(String inputUp) {
-        if (inputUp == "w") {
+    public static int move(String input) {
+        if (input == "w") {
 
             return 1;
+        } else if (input == "s") {
+            return -1;
         }
         return 0;
     }
