@@ -14,12 +14,13 @@ public class PlayerCharacter {
 
     public static int move(String input) {
         if (input == "w") {
-
             return 1;
         } else if (input == "s") {
             return -1;
         } else if (input == "d") {
             return 1;
+        } else if (input == "a") {
+            return -1;
         }
         return 0;
     }

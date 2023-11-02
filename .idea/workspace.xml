@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebc6f702-6c2e-4457-a729-3b12c05f7f45" name="Changes" comment="Add Test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PlayerCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PlayerCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PlayerCharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PlayerCharacterTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ebc6f702-6c2e-4457-a729-3b12c05f7f45" name="Changes" comment="Add Test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +54,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerCharacterTest.move_whenInputD_thenXPlus1">
+  <component name="RunManager" selected="JUnit.PlayerCharacterTest.move_whenInputA_thenXMinus1">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="ZweiDSpielbrett" />
@@ -88,6 +84,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlayerCharacterTest.move_whenInputA_thenXMinus1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ZweiDSpielbrett" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PlayerCharacterTest" />
+      <option name="METHOD_NAME" value="move_whenInputA_thenXMinus1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlayerCharacterTest.move_whenInputD_thenXPlus1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ZweiDSpielbrett" />
       <extension name="coverage">
@@ -106,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerCharacterTest.move_whenInputA_thenXMinus1" />
         <item itemvalue="JUnit.PlayerCharacterTest.move_whenInputD_thenXPlus1" />
         <item itemvalue="JUnit.PlayerCharacterTest.getX_whenStarted_thenReturnZero" />
         <item itemvalue="Application.Main" />

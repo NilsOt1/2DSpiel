@@ -51,13 +51,14 @@ class PlayerCharacterTest {
     }
 
     @Test
-    void move_whenInputD_thenXPlus1(){
+    void move_whenInputA_thenXMinus1(){
         // GIVEN
-        int expected = 1;
-        String input = "d";
+        int expected = -1;
+        String input = "a";
         // WHEN
         int actual = PlayerCharacter.move(input);
         // THEN
         assertEquals(expected, actual);
     }
+
 }
