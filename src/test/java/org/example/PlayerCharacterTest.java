@@ -16,5 +16,15 @@ class PlayerCharacterTest {
         assertEquals(expected, actual);
 
     }
+    @Test
+    void getY_whenStarted_thenReturnZero(){
+        // GIVEN
+        int expected = 0;
+        // WHEN
+        int actual = PlayerCharacter.getY();
+        // THEN
+        assertEquals(expected, actual);
+
+    }
 
 }
