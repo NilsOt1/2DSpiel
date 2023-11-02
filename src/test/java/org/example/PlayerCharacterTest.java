@@ -41,14 +41,29 @@ class PlayerCharacterTest {
         assertEquals(expected, actual);
 
     }
-/**
+
     @Test
     void move_whenInputS_thenYMinus1() {
         // GIVEN
-        int expected = -1;
+        int yAktuell = PlayerCharacter.getY();
+        int expected = yAktuell -1;
         String input = "s";
         // WHEN
-        int actual = PlayerCharacter.move(input);
+        PlayerCharacter.move(input);
+        int actual = PlayerCharacter.getY();
+        // THEN
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void move_whenInputA_thenXPlus1() {
+        // GIVEN
+        int xAktuell = PlayerCharacter.getX();
+        int expected = xAktuell +1;
+        String input = "d";
+        // WHEN
+        PlayerCharacter.move(input);
+        int actual = PlayerCharacter.getX();
         // THEN
         assertEquals(expected, actual);
     }
@@ -56,12 +71,13 @@ class PlayerCharacterTest {
     @Test
     void move_whenInputA_thenXMinus1() {
         // GIVEN
-        int expected = -1;
+        int xAktuell = PlayerCharacter.getX();
+        int expected = xAktuell -1;
         String input = "a";
         // WHEN
-        int actual = PlayerCharacter.move(input);
+        PlayerCharacter.move(input);
+        int actual = PlayerCharacter.getX();
         // THEN
         assertEquals(expected, actual);
     }
- */
 }
